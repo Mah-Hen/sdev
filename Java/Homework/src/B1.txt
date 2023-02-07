@@ -1,0 +1,11 @@
+/* 
+Mahlaki Henry
+1/26/2022
+Homework 2
+This is my own original work 
+*/
+
+Please enter a string: 
+jctcj
+You entered: jctcj
+New Encrypted word is: level

@@ -1,0 +1,89 @@
+import java.util.Random;
+public class App {
+    public static void main(String[] args) throws Exception {
+        boolean[] lamps;
+        Random rand = new Random();
+        int i;
+        lamps = new boolean [30];
+
+        for(i=0; i<lamps.length; i++)
+            lamps[i]= rand.nextBoolean(); 
+        
+        display(lamps);
+    }
+    public static void display(boolean[] arr){
+        int i;
+        int cols = 5;
+        int arrlength = arr.length;
+      //  int rows = arrlength/6;
+
+        for(i=0;i<arrlength;i++)
+            if(arr[i]==true) 
+                System.out.printf("On");
+            else{
+                System.out.printf("Off");
+            for(int j=0;j<cols;j++);
+                
+        }
+          System.out.println("");
+    }
+}
+
+
+
+
+
+ Lamp [] lamps = Lamps();
+        display(lamps);
+
+    }
+
+    public static Lamp[] Lamps(){
+        Lamp l1 = new Lamp();
+        Lamp l2 = new Lamp();
+        Lamp l3 = new Lamp();
+        Lamp l4 = new Lamp();
+        Lamp l5 = new Lamp();
+        Lamp l6 = new Lamp();
+        Lamp l7 = new Lamp();
+        Lamp l8 = new Lamp();
+        Lamp l9 = new Lamp();
+        Lamp l10 = new Lamp();    
+        Lamp l11 = new Lamp();
+        Lamp l12 = new Lamp();
+        Lamp l13 = new Lamp();
+        Lamp l14 = new Lamp();
+        Lamp l15 = new Lamp();
+        Lamp l16 = new Lamp();
+        Lamp l17 = new Lamp();
+        Lamp l18 = new Lamp();
+        Lamp l19 = new Lamp();
+        Lamp l20 = new Lamp();
+        Lamp l21 = new Lamp();
+        Lamp l22 = new Lamp();
+        Lamp l23 = new Lamp();
+        Lamp l24 = new Lamp();
+        Lamp l25 = new Lamp();
+        Lamp l26 = new Lamp();
+        Lamp l27 = new Lamp();
+        Lamp l28 = new Lamp();
+        Lamp l29 = new Lamp();
+        Lamp l30 = new Lamp();
+        
+        Lamp [] lamps = {l1, l2, l3, l4, l5, l6, l7, l8, l9, l10, l11, l12, l13, l14, l15, 
+            l16, l17, l18, l19, l20, l21, l22, l23, l24, l25, l26, l27, l28, l29, l30};
+        
+        for (Lamp lamp: lamps){
+            lamp.turnOn();
+        }
+        
+        return lamps;
+    }
+
+
+Lamp [] Lamps = new Lamp[29];
+        int i;
+        for(i=0; i<Lamps.length; i++){
+           Lamps[i] = new Lamp();
+        }
+        display(Lamps);

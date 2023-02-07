@@ -1,0 +1,40 @@
+20 Lamps will be flipped
+ 30 Lamps prior to change:
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+OFF     OFF     OFF     OFF     OFF
+OFF     OFF     OFF     OFF     OFF
+
+
+
+20 Lamps will be flipped
+ 30 Lamps after the change:
+OFF     OFF     OFF     OFF     OFF
+OFF     OFF     OFF     OFF     OFF
+OFF     OFF     OFF     OFF     OFF
+OFF     OFF     OFF     OFF     OFF
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+
+
+ 26 Lamps will be flipped
+ 30 Lamps prior to change:
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON
+ ON     OFF     OFF     OFF     OFF
+
+
+
+26 Lamps will be flipped
+ 30 Lamps after the change:
+OFF     OFF     OFF     OFF     OFF
+OFF     OFF     OFF     OFF     OFF
+OFF     OFF     OFF     OFF     OFF
+OFF     OFF     OFF     OFF     OFF
+ ON      ON      ON      ON      ON
+ ON      ON      ON      ON      ON

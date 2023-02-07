@@ -1,0 +1,6 @@
+First card is:
+10S
+Second card is:
+10C
+These cards do not have equal suits.   
+These cards have equal value.
