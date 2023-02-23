@@ -1,0 +1,5 @@
+4
+1
+Counter (4, 4)
+Not Equal
+Equal

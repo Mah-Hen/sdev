@@ -1,0 +1,14 @@
+/* 
+Mahlaki Henry
+2/8/2022
+Homework 5
+This is my own original 
+*/
+
+Student, Ferris Bueller is attending,
+Glenbrook North High School, Illinois.
+The Principal there is Ed Rooney.
+
+Student, Andie Walsh is attending,
+Hampton High School, Virginia.
+The Principal there is Franz Chopin.

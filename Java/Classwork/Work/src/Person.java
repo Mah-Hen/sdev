@@ -1,6 +1,12 @@
+/* 
+Mahlaki Henry
+2/8/2022
+Homework 5
+This is my own original 
+*/
 public class Person{
-    private String name;
-    private String citizenship;
+    private String name = " ";
+    private String citizenship = "Illegal";
 
     public Person(String name, String citizenship){
         this.name = name;
@@ -29,6 +35,7 @@ public class Person{
         return true;
        }
        return false;
+       // return this.citizen.equals(other.citizen) && this.name.equals(other.name)
     } 
 
     @Override
