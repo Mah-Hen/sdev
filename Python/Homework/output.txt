@@ -1,5 +1,17 @@
-4
-1
-Counter (4, 4)
-Not Equal
-Equal
+Please enter an expression: (a+b)*((c+d)*14)
+Entry: (a+b)*((c+d)*14)
+Balanced
+
+Please enter an expression: <<a>  <b>  <
+apple  >><>
+Entry: <<a>  <b>  <apple  >><>
+Balanced
+
+Please enter an expression: <<<>>
+Entry: <<<>>
+Not balanced
+
+Please enter an expression: <-----------
+-----<=========<----------->>{
+Entry: <----------------<=========<----------->>{
+Not balanced

@@ -1,0 +1,98 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Maus",
+            "request": "launch",
+            "mainClass": "Maus",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "Play",
+            "request": "launch",
+            "mainClass": "Play",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "App2",
+            "request": "launch",
+            "mainClass": "App2",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "App(1)",
+            "request": "launch",
+            "mainClass": "Bikes.src.App",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "Game",
+            "request": "launch",
+            "mainClass": "Game",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "B1",
+            "request": "launch",
+            "mainClass": "Homework.src.B1",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "K1",
+            "request": "launch",
+            "mainClass": "Homework.src.K1",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "L1",
+            "request": "launch",
+            "mainClass": "Homework.src.L1",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "lab1",
+            "request": "launch",
+            "mainClass": "lab1",
+            "projectName": "Java_e8a4aab4"
+        },
+        {
+            "type": "java",
+            "name": "stacker",
+            "request": "launch",
+            "mainClass": "stacker",
+            "projectName": "Java_e8a4aab4"
+        }
+    ]
+}

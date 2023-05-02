@@ -1,0 +1,126 @@
+/*
+Mahlaki Henry and Jahlil Owens
+Project 2
+4/18/23
+This is my original work
+*/
+
+Please enter your name:
+John
+
+Enter 'On' to Quit
+Or 'Off' to Play
+Off
+
+There are two betting option you can choose. Pass Line and Field Bet.
+If you want more information, enter 'I'.
+Or, enter (Pass) for Pass Line or (Field) for Field Bet:
+Pass
+
+-------PASS ROUND-------
+Player John has 50 chips
+
+Each bet is either 0, 5, 10, 15, or 20 chips.
+Enter quit to leave
+Or, enter the bet you want to place: 
+20
+
+Shooter rolls a 6
+
+Point ROUND!
+---------------
+
+Shooter rolls 8
+Retry!
+Shooter rolls 7
+Point MISSED!
+
+CRAPS! Player John Loses 20!
+
+-------PASS ROUND-------
+Player John has 30 chips
+
+Each bet is either 0, 5, 10, 15, or 20 chips.
+Enter quit to leave
+Or, enter the bet you want to place: 
+15
+
+Shooter rolls a 2
+
+CRAPS! Player John Loses 15!
+
+-------PASS ROUND-------
+Player John has 15 chips
+
+Each bet is either 0, 5, 10, 15, or 20 chips.
+Enter quit to leave
+Or, enter the bet you want to place: 
+10
+
+Shooter rolls a 10
+
+Point ROUND!
+---------------
+
+Shooter rolls 10
+Point SCORED!
+
+Player John Wins 10!
+
+-------PASS ROUND-------
+Player John has 25 chips
+
+Each bet is either 0, 5, 10, 15, or 20 chips.
+Enter quit to leave
+Or, enter the bet you want to place:
+quit
+
+Player John is leaving the table with 25 chips
+
+_______________________________________________________
+
+Please enter your name:
+Jake
+
+Enter 'On' to Quit
+Or 'Off' to Play
+Off
+
+There are two betting option you can choose. Pass Line and Field Bet.
+If you want more information, enter 'I'.
+Or, enter (Pass) for Pass Line or (Field) for Field Bet:
+field
+
+-------FIELD ROUND-------
+Player Jake has 50 chips
+
+Each bet is either 0, 5, 10, 15, or 20 chips.
+Enter quit to leave
+Or, enter the bet you want to place:
+5
+
+Shooter rolls a 6
+
+UH OH! Player Jake Lose 5!
+
+-------FIELD ROUND-------
+Player Jake has 45 chips
+
+Each bet is either 0, 5, 10, 15, or 20 chips.
+Enter quit to leave
+Or, enter the bet you want to place:
+0
+
+Shooter rolls a 11
+
+UH OH! Player Jake Lose 0!
+
+-------FIELD ROUND-------
+Player Jake has 45 chips
+
+Each bet is either 0, 5, 10, 15, or 20 chips.
+Enter quit to leave
+Or, enter the bet you want to place: 
+quit
+
+Player Jake is leaving the table with 45 chips

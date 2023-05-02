@@ -5,58 +5,12 @@ from Deck import Deck
 Mahlaki Henry
 2/6/2023
 This is my original work
+'''
 
-from Lamp import Lamp
-import random
-
-
-def display(lamps):
-    count = 1
-    for i in range(30):
-        print(lamps[i], end="\t")
-        if count%5==0:
-         print()
-        count+=1
-
-def main():
-    lamp1 = Lamp()
-
-    lamps = [Lamp() for i in range(30)]
-
-    for lamp in lamps:
-        rand = random.randint(0,1)
-        lamp.setLamp(rand)
-
-    display(lamps)
-    print("---------")
-    print("---------")
-
-    for j in range(len(lamps)):
-        if(j<=9):
-            lamps[j].flip()
-        elif(j<20 and j>=10):
-            lamps[j].turnOff()
-        else:
-            lamps[j].turnOn();
-
-    display(lamps)
-
-def main():
-    b = Bicycle(8,25)
-    print(b)
-    b.applyBrake(3)
-    print(str(b))
-
-def main():
-    e1 = HourlyEmployee("Carson", 203459, "Custodial", 12.55)
-    print(e1)
-    print()
-    e2 = Employee("Marcus", 203455, "Foreman")
-    print(e2)
-    '''
 count1 = []
 count2 = []
 count0 = []
+
 
 
 def createDeck():
@@ -107,9 +61,9 @@ def playGame(hand1, hand2, nplay, deck):
         result = compareCards(c1, c2, deck)
         numCardsPlayed += nplay
         if result != -1:
-            return results(result)
-        hand1.getFirst()
-        hand2.getFirst()
+            results(result)
+        #hand1.getFirst()
+        #hand2.getFirst()
         '''
     if hand1.isEmpty():
         return 2
@@ -131,24 +85,26 @@ def results(result):
         count2.append(result)
     else:
         print("=")
+        count1.append(result)
+        count2.append(result)
         count0.append(result)
 
-    
-    if len(count1) != len(count2) or len(count1) != len(count0) or len(count2) != len(count0):
-        if len(count1) > len(count2) and len(count1) > len(count0):
-            print(count1, count2, count0)
+def congrats():
+    if len(count1) != len(count2):
+        if len(count1) > len(count2):
+            print(count1, count2)
             return "\nPlayer 1 wins the Game!"
-        elif len(count2) > len(count1) and len(count2) > len(count0):
-            print(count1, count2, count0)
+        elif len(count2) > len(count1):
+            print(count1, count2)
             return "\nPlayer 2 wins the Game!"
         else:
-            print(count1, count2, count0)
-            print(len(count1), len(count2), len(count0))
+            print(count1, count2)
+            print(len(count1), len(count2))
             return "\nTie Game!"
     
     else:
-        print(count1, count2, count0)
-        print(len(count1), len(count2), len(count0))
+        print(count1, count2)
+        print(len(count1), len(count2))
         return "\nTie Game!"
     
 
@@ -164,10 +120,10 @@ def main():
         print(hand1)
         print(hand2)
 
-        indicator = playGame(hand1, hand2, numCardPlay, deck)
-        print(len(count1), len(count2), len(count0), "\n")
+        playGame(hand1, hand2, numCardPlay, deck)
+        print(len(count1), len(count2), "\n")
         num += numCardPlay * 2
-    print(indicator)
+    #print(indicator)
     '''
     if indicator == 0:
         print("Tie game with",len(count0))
@@ -176,8 +132,9 @@ def main():
     if indicator == 2:
             print("P2 game with",len(count2))
     '''
-    lSum = len(count1) + len(count2) + len(count0)
-    print(lSum*2, "ROUNDS PLAYED")
+    lSum = len(count1) + len(count2) - len(count0)
+    print(congrats())
+    print(lSum, "Rounds played")
     '''
     if len(count1) != len(count2) or len(count1) != len(count0) or len(count2) != len(count0):
         if len(count1) > len(count2) and len(count1) > len(count0):
