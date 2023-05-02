@@ -1,0 +1,19 @@
+First List: 123
+Second List: 132
+Lists do not equal
+
+SWAP:
+First List: 132
+
+Lists do equal
+
+
+
+First List: Alvin Simon Theodore 
+Second List: Moe Larry Curly
+Lists do not equal
+
+SWAP:
+First List: Theodore Alvin Simon
+
+Lists do not equal

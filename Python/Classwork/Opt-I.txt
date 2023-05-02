@@ -1,0 +1,234 @@
+'''
+Mahlaki Henry
+3/1/2023
+This is my original work
+'''
+
+Deck
+(5,H)     (1,C)     (11,D)    (10,H)    
+(12,S)    (4,H)     (6,S)     (9,C)     
+(12,D)    (2,H)     (8,S)     (1,H)     
+(11,C)    (10,S)    (8,C)     (2,S)     
+(11,H)    (1,S)     (4,D)     (6,C)     
+(7,D)     (6,H)     (4,C)     (3,D)     
+(5,S)     (5,C)     (3,S)     (10,D)    
+(3,C)     (3,H)     (9,D)     (9,H)
+(12,H)    (10,C)    (7,C)     (8,H)
+(2,D)     (4,S)     (6,D)     (9,S)
+(13,H)    (7,H)     (5,D)     (11,S)
+(13,D)    (12,C)    (1,D)     (7,S)
+(13,C)    (2,C)     (13,S)    (8,D)
+
+ 52
+Hand 1:
+(5,H)
+Hand 2:
+(1,C)
+Cards Played: (5,H) (1,C)
+P1
+1 0
+
+Hand 1:
+(11,D)
+Hand 2:
+(10,H)
+Cards Played: (11,D) (10,H)
+P1
+2 0
+
+Hand 1:
+(12,S)
+Hand 2:
+(4,H)
+Cards Played: (12,S) (4,H)
+P1
+3 0
+
+Hand 1:
+(6,S)
+Hand 2:
+(9,C)
+Cards Played: (6,S) (9,C)
+P1
+4 0
+
+Hand 1:
+(12,D)
+Hand 2:
+(2,H)
+Cards Played: (12,D) (2,H)
+P1
+5 0
+
+Hand 1:
+(8,S)
+Hand 2:
+(1,H)
+Cards Played: (8,S) (1,H)
+P1
+6 0
+
+Hand 1:
+(11,C)
+Hand 2:
+(10,S)
+Cards Played: (11,C) (10,S)
+P2
+6 1
+
+Hand 1:
+(8,C)
+Hand 2:
+(2,S)
+Cards Played: (8,C) (2,S)
+P2
+6 2
+
+Hand 1:
+(11,H)
+Hand 2:
+(1,S)
+Cards Played: (11,H) (1,S)
+P2
+6 3
+
+Hand 1:
+(4,D)
+Hand 2:
+(6,C)
+Cards Played: (4,D) (6,C)
+P2
+6 4
+
+Hand 1:
+(7,D)
+Hand 2:
+(6,H)
+Cards Played: (7,D) (6,H)
+P1
+7 4
+
+Hand 1:
+(4,C)
+Hand 2:
+(3,D)
+Cards Played: (4,C) (3,D)
+P1
+8 4
+
+Hand 1:
+(5,S)
+Hand 2:
+(5,C)
+Cards Played: (5,S) (5,C)
+P1
+9 4
+
+Hand 1:
+(3,S)
+Hand 2:
+(10,D)
+Cards Played: (3,S) (10,D)
+P1
+10 4
+
+Hand 1:
+(3,C)
+Hand 2:
+(3,H)
+Cards Played: (3,C) (3,H)
+=
+11 5
+
+Hand 1:
+(9,D)
+Hand 2:
+(9,H)
+Cards Played: (9,D) (9,H)
+=
+12 6
+
+Hand 1:
+(12,H)
+Hand 2:
+(10,C)
+Cards Played: (12,H) (10,C)
+P1
+13 6
+
+Hand 1:
+(7,C)
+Hand 2:
+(8,H)
+Cards Played: (7,C) (8,H)
+P2
+13 7
+
+Hand 1:
+(2,D)
+Hand 2:
+(4,S)
+Cards Played: (2,D) (4,S)
+P2
+13 8
+
+Hand 1:
+(6,D)
+Hand 2:
+(9,S)
+Cards Played: (6,D) (9,S)
+P2
+13 9
+
+Hand 1:
+(13,H)
+Hand 2:
+(7,H)
+Cards Played: (13,H) (7,H)
+P1
+14 9
+
+Hand 1:
+(5,D)
+Hand 2:
+(11,S)
+Cards Played: (5,D) (11,S)
+P2
+14 10
+
+Hand 1:
+(13,D)
+Hand 2:
+(12,C)
+Cards Played: (13,D) (12,C)
+P1
+15 10
+
+Hand 1:
+(1,D)
+Hand 2:
+(7,S)
+Cards Played: (1,D) (7,S)
+P2
+15 11
+
+Hand 1:
+(13,C)
+Hand 2:
+(2,C)
+Cards Played: (13,C) (2,C)
+P1
+16 11
+
+Hand 1:
+(13,S)
+Hand 2:
+(8,D)
+Cards Played: (13,S) (8,D)
+P1
+17 11
+
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1] [2, 2, 2, 2, 0, 0, 2, 2, 2, 2, 2]
+
+Player 1 wins the Game!
+26 Rounds played

@@ -1,0 +1,11 @@
+Roll is 1
+Roll is (1)(5) with sum 6
+
+Roll is 6
+Roll is (6)(3)(2) with sum 11
+
+Roll is 2
+Roll is (6)(3)(4) with sum 13
+
+Roll is 5
+Roll is (2)(6)(3)(5)(4)(4)(3)(5)(2)(6) with sum 40

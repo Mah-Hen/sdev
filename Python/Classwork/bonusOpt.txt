@@ -1,0 +1,21 @@
+*****Red alert*****
+A tornado
+*******************
+
+Level:  Red
+Message:  A tornado
+
+*****Yellow alert*****
+A Tropical Storm
+*******************
+
+Increase:
+ *****Orange alert*****
+A Tropical Storm
+*******************
+Decrease:
+ *****Yellow alert*****
+A Tropical Storm
+*******************
+False
+True
